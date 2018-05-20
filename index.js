@@ -5,5 +5,7 @@ function driversWithRevenueOver (array, revenue) {
 }
 
 function driverNamsWithRevenueOver (array, revenue) {
-  const newarr = array.map (function (element) { return element['name'] if (element['revenue'] >)})
+  const newarr = array.map (function (element) { if (element['revenue'] > revenut) {return element['name']; 
+      }
+  })
 }
