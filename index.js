@@ -7,5 +7,5 @@ function driversWithRevenueOver (array, revenue) {
 function driverNamesWithRevenueOver (array, revenue) {
   const newarr = array.filter (function (element) {return element.name})
   
-
+  return newarr
   }
