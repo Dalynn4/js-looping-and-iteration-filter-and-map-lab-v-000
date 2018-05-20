@@ -19,4 +19,8 @@ function driverNamesWithRevenueOver (array, revenue) {
     return newarr
   }
   
-  function exactMatchToList()
+  function exactMatchToList(array, object) {
+    const obkey = Object.keys(object)
+    const newarr = array.filter (function (element) { if (element[obkey] === object[obkey]) {return element.name}})
+    return newarr
+  }
